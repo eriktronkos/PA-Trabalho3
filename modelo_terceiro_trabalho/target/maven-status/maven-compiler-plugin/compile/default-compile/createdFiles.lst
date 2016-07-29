@@ -1,0 +1,7 @@
+ufrj/bibliopdf/dao/BaseDAO.class
+ufrj/bibliopdf/ServletDeCatalogo.class
+ufrj/bibliopdf/dto/RespostaDTO.class
+ufrj/bibliopdf/resources/CatalogoResource.class
+utils/Utils.class
+ufrj/bibliopdf/dto/RespostaCompletaDTO.class
+ufrj/bibliopdf/dao/BiblioPDFDAO.class
