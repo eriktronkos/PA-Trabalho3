@@ -1,0 +1,329 @@
+
+body {
+    margin:0px;
+    background-color: #f1e2af;
+    font-family:arial;
+    text-align:center;
+    font-family: 'Amaranth', serif;
+/*    font-family: 'Fjord One', serif;*/
+}
+
+#idDivCabecalho {
+    margin-left:auto;
+    margin-right:auto;
+    height:55px;
+    background-color:lightgray;
+    text-align:center;
+    border-bottom:1px solid gray;
+    background:transparent url('../images/books2.jpg') center center;
+    /* lembrando que o url é relativo ao arquivo .css */ 
+    background-repeat:repeat;
+}
+
+#idDivLogin {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:1000px;
+}
+
+#idDivBusca {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:1000px;
+}
+
+#idDivCatalogacao {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width:1000px;
+}
+
+.botoesProxAnt{
+    width:70px;
+}
+
+.botoes{
+    width:175px;
+}
+
+input[type="text"]{
+    width:525px;
+}
+
+#idTabelaResultados {
+    background-color:white;
+    border:1px solid gray;
+    width:820px;
+    height:200px;
+    overflow-y:scroll;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+
+#idRespAutorizacao {
+    color:black;
+    font-weight:bold;
+}
+
+#idMsgDialogo2 {
+/*    width:890px; */
+    text-align:center;
+}
+
+#idMsgDialogo3 {
+/*    width:890px; */
+    text-align:center;
+}
+
+#idLoading1 {
+/*
+    position:absolute;
+    right:270px;
+    top:345px;
+    z-index:200; 
+*/
+    width:75px;
+    height:75px;
+}
+
+#idLoading2 {
+/*
+    position:absolute;
+    right:270px;
+    top:345px;
+    z-index:200; 
+*/
+    width:75px;
+    height:75px;
+}
+
+.loading{
+    background: transparent url('../images/MnyxU75.gif') center center no-repeat; /* lembrando que o url é relativo ao arquivo .css */ 
+    height: 75px; /* Importante apenas para garantir que a div possui altura para exibir a imagem */
+}
+
+
+#idpatrimonio2 {
+
+}
+
+#idLabel1 {
+    font-size:22pt;
+    color:white;
+    font-weight:bold;
+}
+
+#idLabel2 {
+    font-size:12pt;
+    color:blue;
+    font-weight:normal;
+}
+
+#idUsuario {
+    width:200px;
+}
+
+#idSenha {
+    width:200px;
+}
+
+#idEntrar {
+    text-decoration:none;
+    color:red;
+    font-weight:bold;
+}
+
+#idCurrentTime {
+    font-weight:bold;
+    font-size:14pt;
+}
+
+#tabelaBusca{
+    table-layout:fixed;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+#tabelaBusca td{
+    width:200px;
+}
+
+#tabelaBusca td+td{
+    width:268px;
+}
+
+#tabelaBusca td+td+td{
+    width:268px;
+}
+
+#tabelaBusca td+td+td+td{
+    width:200px;
+}
+
+#tabelaBusca2{
+    table-layout:fixed;
+    margin-left:auto;
+    margin-right:auto;    
+    display:none;
+}
+
+#tabelaBusca2 td{
+    width:200px;
+}
+
+#tabelaBusca2 td+td{
+    width:535px;
+}
+
+#tabelaBusca2 td+td+td{
+    width:200px;
+}
+
+#tabelaCatalogacao{
+    table-layout:fixed;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+#tabelaCatalogacao td{
+    width:200px;
+}
+
+#tabelaCatalogacao td+td{
+    width:536px;
+}
+
+#tabelaCatalogacao td+td+td{
+    width:200px;
+}
+
+#tabelaCatalogacao2 {
+    table-layout:fixed;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+#tabelaCatalogacao2 td{
+    width:200px;
+}
+
+#tabelaCatalogacao2 td+td{
+    width:536px;
+}
+
+#tabelaCatalogacao2 td+td+td{
+    width:200px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+tr{
+    height:30px;
+}
+
+.alinha_direita{
+    text-align:right; 
+}
+
+#idNroRows{
+    min-width:60px;
+}
+
+#iddata_publicacao21 {
+    width:212px;
+}
+
+#iddata_publicacao22 {
+    width:212px;
+}
+
+.titulo{
+    text-align:center;
+    font-weight:bold;
+    font-size:22pt;    
+}
+
+.Menu{
+    position:relative;    
+    float:right;    
+    width:140px;
+    height:55px;
+    line-height:50px;    
+    font-weight:bold;
+    color:white;
+}
+.spanMenu{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.mensagemDialogoVerde{
+    text-align:center;
+    vertical-align:middle;
+    background:#ccffcc;
+    background:radial-gradient(#ccffcc,#f1e2af);
+    color:green;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.mensagemDialogoVermelho{
+    text-align:center;
+    vertical-align:middle;
+    background:#ffcccc;
+    background:radial-gradient(#ffcccc,#f1e2af);
+    color:red;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.mensagemDialogoAmarelo{
+    text-align:center;
+    vertical-align:middle;
+    background:#ffff66;
+    background:radial-gradient(#ffff66,#f1e2af);
+    color:brown;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.alinha_esquerda {
+    text-align:left;
+}
+
+#idNomeArqUpload {
+    border:1px solid lightgray;
+    width:534px;
+    background-color:white;
+}
+
+#idPagAnterior {
+    width:130px;
+}
+
+#idPagProxima {
+    width:130px;
+}
+
+#idPaginaDestino {
+    width:70px;
+    text-align:center;
+}
+
+#idTituloPagina {
+    position:absolute;
+    left:400px;
+    right:400px;
+}
+
+.botoesBusca {
+    width:264px;
+}
